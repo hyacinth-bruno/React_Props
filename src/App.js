@@ -1,4 +1,6 @@
 import React from "react";
+import ProductItem from "./components/ProductItem";
+import "./App.css";
 
 function App() {
   const produtList = [
@@ -109,7 +111,14 @@ function App() {
       },
     },
   ];
-  return <div>This is App component</div>;
+  return (
+    <div>{
+      produtList.map((item) => {
+        return <ProductItem product = {item}/>;
+      })}
+      </div>
+
+  );
 }
 
 export default App;

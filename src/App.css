@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+/* .product{
+ display:grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ grid-template-rows: auto;
+ grid-template-areas: 
+    "product1 product2 product3"
+    "product11 product12 product13"
+    "product111 product112 .";
+
+} */
