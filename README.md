@@ -12,3 +12,5 @@ In `App.js` we have a product array, using map method and passing props, please 
 ## Screenshot
 
 ![productList](./src/screenshoot/productList.png)
+
+Deploy link: https://hyacinth-bruno.github.io/ISA6-ReactProps/
